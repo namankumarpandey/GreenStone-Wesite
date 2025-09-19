@@ -117,3 +117,138 @@ body {
 .price-box p {
   margin: 13px 0;
 }
+
+.note {
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Features row */
+.features {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10px;
+}
+
+.feature {
+  flex: 1;
+}
+
+.feature img {
+  width: 30px;
+}
+
+.feature-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #3e5b8f;
+  margin-top: 4px;
+}
+
+.information {
+  text-align: center;
+  padding: 10px 0 40px;
+}
+
+.information a {
+  display: inline-block;
+}
+
+.shadow-button {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.information span {
+  padding: 14px 18px;
+  border-radius: 6px;
+  text-decoration: underline;
+}
+
+.information p {
+  display: inline;
+  color: #044481;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.hero {
+  padding: 30px;
+  background: #312e81 url(https://dev.gvoscrm.io/images/templates/single/property-description-bg.png) center top / cover repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.hero span {
+  font-size: 14px;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+}
+.hero p{
+  margin-top: 20px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+.heading{
+  text-align: center;
+  padding: 20px 10px;
+}
+.heading h2 {
+  margin: 0;
+  font-size: 24px;
+}
+.heading h3{
+  margin: 10px 0 0;
+  font-size: 20px;
+  font-weight: normal;
+}
+.btn {
+  display: inline-block;
+  background: #044481;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.footer img {
+  display: block;
+  width: 100%;
+}
+.social-section {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 200px;
+  padding: 20px;
+}
+.social-section span {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+  white-space: nowrap;
+}
+.social-icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+  margin: 0 6px;
+}
